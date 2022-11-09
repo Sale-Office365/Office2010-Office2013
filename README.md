@@ -1,4 +1,6 @@
-# KÍCH HOẠT OFFICE 2010 #
+# KÍCH HOẠT OFFICE 2010 VÀ OFFICE 2013 #
+
+**Tools và cmd kích hoạt giống nhau:**
 
 ## 1. AIO TOOLS V3.1.3 ##
 
