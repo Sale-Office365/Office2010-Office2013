@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/103977676/200758657-1ddf0219-2f35-4501-a18f-a084e5dcce15.png)
 
-Sau khi kích hoạt xong ta gia hạn kích hoạt vĩnh viến.
+Sau khi kích hoạt xong ta gia hạn kích hoạt vĩnh viễn.
 
 - Tạo tác vụ gia hạn kích hoạt vĩnh viến:
 
