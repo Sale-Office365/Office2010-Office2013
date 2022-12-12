@@ -105,6 +105,7 @@ cscript %folder%\ospp.vbs /act
 if exist "%ProgramFiles%\Microsoft Office\Office15\ospp.vbs" set folder="%ProgramFiles%\Microsoft Office\Office15" if exist "%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs" set folder="%ProgramFiles(x86)%\Microsoft Office\Office15"
 ```
 
+- ![image](https://user-images.githubusercontent.com/103977676/206967132-7d4591a9-a2d1-4d0b-94db-a4ec74c5283e.png)
 - Đảm bảo PC của bạn được kết nối với internet, sau đó chạy lệnh sau:
 
 ```php
@@ -117,6 +118,7 @@ cscript %folder%\ospp.vbs /setprt:1688
 cscript %folder%\ospp.vbs /act
 ```
 
-- Nếu cmd mà hiện dòng chữ “PRODUCT ACTIVATION SUCCESSFUL” thì có nghĩa là bạn đã kích hoạt thành công Office 2010 180 ngày rồi đấy nhé!
+- ![image](https://user-images.githubusercontent.com/103977676/206967564-3fab0a9e-0725-4788-bf5a-3171baf6b460.png)
+- Nếu cmd mà hiện dòng chữ “PRODUCT ACTIVATION SUCCESSFUL” thì có nghĩa là bạn đã kích hoạt thành công Office 2013 180 ngày rồi đấy nhé!
 - Bạn cần gia hạn kích hoạt chứ không hết hạn 180 ngày bạn không thể sử dụng được office!
 - Trường hợp bạn bị chặn không cho sử dụng office vì hết hạn 180 ngày, đừng lo lắng, bạn tắt hết office và kích hoạt lại như trên là sử dụng được!
