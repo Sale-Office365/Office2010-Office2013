@@ -85,7 +85,7 @@ if exist "cd /d %ProgramFiles(x86)%\Microsoft Office\Office14\ospp.vbs" set fold
 ```php
 cscript %folder%\ospp.vbs /inpkey:VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
 cscript %folder%\ospp.vbs /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
-cscript %folder%\ospp.vbs /sethst:kms8.msguides.com
+cscript %folder%\ospp.vbs /sethst:kms.03k.org
 cscript %folder%\ospp.vbs /setprt:1688
 cscript %folder%\ospp.vbs /act
 ```
@@ -113,7 +113,7 @@ cscript %folder%\ospp.vbs /inpkey:FN8TT-7WMH6-2D4X9-M337T-2342K
 cscript %folder%\ospp.vbs /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
 cscript %folder%\ospp.vbs /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4
 cscript %folder%\ospp.vbs /inpkey:C2FG9-N6J68-H8BTJ-BW3QX-RM3B3
-cscript %folder%\ospp.vbs /sethst:kms8.msguides.com
+cscript %folder%\ospp.vbs /sethst:kms.03k.org 
 cscript %folder%\ospp.vbs /setprt:1688
 cscript %folder%\ospp.vbs /act
 ```
