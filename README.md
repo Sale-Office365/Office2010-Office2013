@@ -67,5 +67,56 @@ Kiểm tra lại ta thấy:
 
 ![image](https://user-images.githubusercontent.com/103977676/200765447-5e3c87f0-d179-4ebf-ad0b-f3f9a5fcae4c.png)
 
+# KÍCH HOẠT BẰNG CMD CỤ THỂ #
 
+## OFFICE 2010 ##
 
+- Mở CMD bằng quyền Adminstrator
+- ![image](https://user-images.githubusercontent.com/103977676/206964468-9b960a5a-bd66-4c96-a69a-0b58d687c7c9.png)
+- Copy lệnh bên dưới và dán vào CMD
+
+```php
+if exist "%ProgramFiles%\Microsoft Office\Office14\ospp.vbs" set folder="%ProgramFiles%\Microsoft Office\Office14"
+if exist "cd /d %ProgramFiles(x86)%\Microsoft Office\Office14\ospp.vbs" set folder="cd /d %ProgramFiles(x86)%\Microsoft Office\Office14"
+```
+- ![image](https://user-images.githubusercontent.com/103977676/206964652-58de7663-f914-421b-a590-6fadcd10847e.png)
+- Đảm bảo PC của bạn được kết nối với internet, sau đó chạy lệnh sau:
+
+```php
+cscript %folder%\ospp.vbs /inpkey:VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+cscript %folder%\ospp.vbs /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+cscript %folder%\ospp.vbs /sethst:kms8.msguides.com
+cscript %folder%\ospp.vbs /setprt:1688
+cscript %folder%\ospp.vbs /act
+```
+
+- ![image](https://user-images.githubusercontent.com/103977676/206964810-9c18a9e6-e29c-420f-b66f-bc385cb6f915.png)
+- Nếu cmd mà hiện dòng chữ “PRODUCT ACTIVATION SUCCESSFUL” thì có nghĩa là bạn đã kích hoạt thành công Office 2010 180 ngày rồi đấy nhé!
+- Bạn cần gia hạn kích hoạt chứ không hết hạn 180 ngày bạn không thể sử dụng được office!
+- Trường hợp bạn bị chặn không cho sử dụng office vì hết hạn 180 ngày, đừng lo lắng, bạn tắt hết office và kích hoạt lại như trên là sử dụng được!
+
+## OFFICE 2013 ##
+
+- Đầu tiên chúng ta cần mở hộp thoại CMD lên:
+- ![image](https://user-images.githubusercontent.com/103977676/206965374-2a256f9e-9f34-4329-879b-d59671501316.png)
+- Copy đoạn lệnh sau dán vào và bấm enter:
+
+```php
+if exist "%ProgramFiles%\Microsoft Office\Office15\ospp.vbs" set folder="%ProgramFiles%\Microsoft Office\Office15" if exist "%ProgramFiles(x86)%\Microsoft Office\Office15\ospp.vbs" set folder="%ProgramFiles(x86)%\Microsoft Office\Office15"
+```
+
+- Đảm bảo PC của bạn được kết nối với internet, sau đó chạy lệnh sau:
+
+```php
+cscript %folder%\ospp.vbs /inpkey:FN8TT-7WMH6-2D4X9-M337T-2342K
+cscript %folder%\ospp.vbs /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+cscript %folder%\ospp.vbs /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4
+cscript %folder%\ospp.vbs /inpkey:C2FG9-N6J68-H8BTJ-BW3QX-RM3B3
+cscript %folder%\ospp.vbs /sethst:kms8.msguides.com
+cscript %folder%\ospp.vbs /setprt:1688
+cscript %folder%\ospp.vbs /act
+```
+
+- Nếu cmd mà hiện dòng chữ “PRODUCT ACTIVATION SUCCESSFUL” thì có nghĩa là bạn đã kích hoạt thành công Office 2010 180 ngày rồi đấy nhé!
+- Bạn cần gia hạn kích hoạt chứ không hết hạn 180 ngày bạn không thể sử dụng được office!
+- Trường hợp bạn bị chặn không cho sử dụng office vì hết hạn 180 ngày, đừng lo lắng, bạn tắt hết office và kích hoạt lại như trên là sử dụng được!
